@@ -22,4 +22,17 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Jeisenfker"
-jim.learn(some_knowledge)
+
+steve.learn(avi.teach)
+steve.learn(avi.teach)
+steve.learn(avi.teach)
+
+arthur = Student.new
+arthur.first_name = "Arthur"
+arthur.last_name = "McBoss"
+
+arthur.learn(avi.teach)
+arthur.learn(avi.teach)
+
+puts steve.knowledge
+puts arthur.knowledge
